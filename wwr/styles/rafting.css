@@ -1,8 +1,8 @@
 :root {
     --primary-color: #34252F;
     --secondary-color: #3b5249;
-    --accent-color: #d8bfaa;
-    --accent-color: #b7c3cc;
+    --accent-color1: #d8bfaa;
+    --accent-color2: #b7c3cc;
     
 }
 
@@ -20,7 +20,6 @@ h1{
 nav{
     display: flex;
     background-color: var(--primary-color);
-    padding: 10px;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
@@ -28,8 +27,79 @@ nav{
 }
 
 .logo{
-    width: 10px;
-    height: 10px;
+    width: 100px;
+    height: auto;
     margin-right: 20px;
 
+}
+
+.hero {
+    background-image: url(image/hero.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.hero h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+.history{
+    display: flex;
+    max-width: fit-content;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 20px;
+    align-items: center;
+    margin: -100px auto 0 auto;
+    background-image: url(image/happy_client.webp);
+}
+
+.happy-client {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.history p{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.adventure{
+    display: flex;
+    max-width: fit-content;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 20px;
+    justify-content: flex-end;
+    margin: 100px auto 0 auto;
+    background-image: url(image/adventure.webp);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    color: #34252F;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 10px;
+    height: 10px;
 }

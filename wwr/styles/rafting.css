@@ -1,4 +1,10 @@
-
+:root {
+    --primary-color: #34252F;
+    --secondary-color: #3b5249;
+    --accent-color: #d8bfaa;
+    --accent-color: #b7c3cc;
+    
+}
 
 body {
     font-family: "Kalnia", serif;
@@ -9,4 +15,21 @@ body {
 
 h1{
     font-weight: 600;
+}
+
+nav{
+    display: flex;
+    background-color: var(--primary-color);
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.logo{
+    width: 10px;
+    height: 10px;
+    margin-right: 20px;
+
 }

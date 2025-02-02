@@ -22,8 +22,7 @@ header{
     display: grid;
     grid-template-columns: 120 px 1fr 1fr;
     align-items: center;
-    border-bottom: #34252F 2px solid;
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .logo{
@@ -135,4 +134,26 @@ header{
     margin-top: 20px;
     width: 10px;
     height: 10px;
+}
+
+figure{
+    margin: auto;
+    border: thin solid var(--primary-color);
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+
+}
+
+img {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption{
+    background-color: var(--accent-color2);
+    color: black;
+    padding: 3px;
+    text-align: center;
 }

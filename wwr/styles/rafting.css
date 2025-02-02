@@ -17,21 +17,54 @@ h1{
     font-weight: 600;
 }
 
-nav{
-    display: flex;
-    background-color: var(--primary-color);
+header{
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120 px 1fr 1fr;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-
+    border-bottom: #34252F 2px solid;
+    max-width: 1000px;
 }
 
 .logo{
+    width: 64px;
+    height: auto;
+    margin: auto;
+
+}
+
+.nav_links{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--primary-color);
+    align-items: flex-end;
+    list-style: none;
+    /*justify-content: space-between; */
+    padding: 0px;
+}
+
+.nav_links li{
+    flex: 1 1 auto;
+}
+.nav_links a{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: end;
+}
+
+.nav_links a:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+/*.logo{
     width: 100px;
     height: auto;
     margin-right: 20px;
 
-}
+} */
 
 .hero {
     background-image: url(image/hero.webp);

@@ -20,7 +20,7 @@ h1{
 header{
     margin: 1rem auto;
     display: grid;
-    grid-template-columns: 120 px 1fr 1fr;
+    grid-template-columns: 120px 1fr 1fr;
     align-items: center;
     max-width: 1200px;
 }
@@ -28,7 +28,7 @@ header{
 .logo{
     width: 64px;
     height: auto;
-    margin: auto;
+    justify-self: start;
 
 }
 
@@ -36,10 +36,10 @@ header{
     display: flex;
     flex-wrap: wrap;
     background-color: var(--primary-color);
-    align-items: flex-end;
+    align-items: center;
     list-style: none;
-    /*justify-content: space-between; */
-    padding: 0px;
+    justify-content: space-between; 
+    padding: 0;
 }
 
 .nav_links li{
@@ -69,9 +69,9 @@ header{
     background-image: url(image/hero.webp);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 400px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     color: white;
     text-align: center;

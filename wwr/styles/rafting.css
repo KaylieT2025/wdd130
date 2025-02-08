@@ -168,6 +168,81 @@ figcaption {
 .map{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-self: end;
+    grid-column: 1 / 2;
+    justify-self: start;
+    align-items: center;
 }
 
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.employee-images{
+    display: grid;
+    grid-template-columns: repeat(2. 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+
+}
+
+.employee{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.employee img{
+    width: 100%;
+    max-width: 150px;
+    height:auto;
+    
+}
+
+.employee p{
+    text-align: center;
+    font-weight: 600;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: var(--secondary-color);
+}
+
+.title{
+    grid-column: 1 / 4;
+    text-align: center;
+}
+
+.name{
+    grid-column: 1 / 2;
+}
+
+.email{
+    grid-column: 2 / 3;
+}
+
+.radio{
+    grid-column: 1/ 4;
+}
+
+.message{
+    grid-column: span 3;
+    justify-self: start;
+}
+
+.checkbox{
+    grid-column: 1 / 4;
+    justify-self: start;
+    
+}
+
+.submit{
+    grid-column: 2/ 4;
+    justify-self: center;
+}

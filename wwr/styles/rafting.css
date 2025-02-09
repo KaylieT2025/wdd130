@@ -257,3 +257,7 @@ figcaption {
     height: 30px;
     margin: 0 10px;
 }
+
+iframe {
+    border: 0;
+}

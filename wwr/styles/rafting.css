@@ -261,3 +261,95 @@ figcaption {
 iframe {
     border: 0;
 }
+
+/*trip.html page*/
+.action-section{
+    background-color: var(--accent-color2);
+    padding: 20px;
+    border-radius: 8px;
+}
+.action-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.action img{
+    max-width: 40%;
+    height:auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+.action p{
+    max-width: 55%;
+}
+
+.action h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.action p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+
+.pre{
+    font-family: "Kalnia", serif;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+    justify-content: center;
+    border: #34252F;
+    background-color: var(--accent-color2);
+}
+
+.contact-button {
+   
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 20px auto;
+    font-size: 1rem;
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover{
+    background-color: var(--secondary-color);
+}
+
+footer{
+    display: flex;
+    height: 50px;
+    margin: auto;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    align-items: center;
+    max-width: 1200px;
+    
+}
+.footer .social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 10px;
+    height: 10px;
+}

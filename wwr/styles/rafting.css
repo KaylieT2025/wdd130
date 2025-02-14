@@ -361,6 +361,11 @@ footer{
     height: 10px;
 }
 
+.trip-examples-container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
 .trip-examples {
     display:flex;
     justify-content: center;
@@ -370,3 +375,43 @@ footer{
     
 }
 
+.title{
+    text-align: center;
+}
+
+.types-of-trips{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.types-of-trips h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+.types-of-trips pre{
+    font-family: "Kalnia", serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+}
+
+.trip-card{
+    background-color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    max-width: 100%;
+    word-wrap: break-word;
+}

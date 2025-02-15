@@ -53,33 +53,36 @@
 
         
        <!--News Letter Sign Up-->
-       <h2>News Letter Sign Up</h2>
-       <form>
-        <label for="name">First Name: </label>
+       <div class="news">
+        <h2>News Letter Sign Up</h2>
+       </div>
+       <form id="newsletter-form">
+        <label for="first-name">First Name:</label>
         <input type="text" id="name" name="name" required>
 
-        <label for="name">Last Name: </label>
-        <input type="text" id="name" name="name" required>
+        <label for="last-name">Last Name: </label>
+        <input type="text" id="last-name" name="last-name" required>
 
-        <label for="email">Email: </label>
-        <input type="text" id="email" name="email" required>
+        <label for="news-email">Email: </label>
+        <input type="text" id="news-email" name="news-email" required>
 
         <input type="radio" id="terms" name="terms" value="terms">
         <label for="terms">I agree to the terms and condition. 
             I understand I will recive monthly promotional emails.
         </label><br>
 
-        <button type="submit">SUBMIT REQUEST</button>
+        <button type="submit" value="submit-request">SUBMIT REQUEST</button>
        </form>
        
        <!--Link to contact.html and trips.html-->
-       <h2>Get Your Adventure Started!</h2>
-       <p>If your not sure where to start, check out the available trips.
-        Know what exactly you want? Go ahead and get started on booking your trip.
-       </p>
-       <a href="contact.html" class="contact-button">GET STARTED</a>
-       <a href="trips.html" class="trip-button">SEE OUT TRIPS</a>
-
+       <div class="trip-book">
+            <h2>Get Your Adventure Started!</h2>
+            <p>If your not sure where to start, check out the available trips.
+            Know what exactly you want? Go ahead and get started on booking your trip.
+            </p>
+            <a href="contact.html" class="contact-button">GET STARTED</a>
+            <a href="trips.html" class="trip-button">SEE OUT TRIPS</a>
+       </div>
        <!--Relevent Content-->
        
     </main>

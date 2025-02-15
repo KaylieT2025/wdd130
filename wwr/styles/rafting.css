@@ -446,9 +446,12 @@ footer a:hover{
 /*HOME PAGE*/
 
 .starting-section{
-    background-color: var(--secondary-color);
+    background-color: #d8bfaa;
     margin-top: 20px;
+    background-image: url(group.webp);
+
 }
+
 
 
 /*.starting-section {

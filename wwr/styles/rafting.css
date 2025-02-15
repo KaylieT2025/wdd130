@@ -449,6 +449,7 @@ footer a:hover{
     background-color: #d8bfaa;
     margin-top: 20px;
     background-image: url(group.webp);
+    display: flex;
 
 }
 
@@ -578,7 +579,78 @@ footer a:hover{
     color: white;
 }
 
+/*body{
+    font-family: "Kalnia", serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}*/
 
+
+
+/*.client-testimonial{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: end;
+    max-width: 1200px;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.client-testimonial img{
+    flex: 1;
+    min-width: 10px;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
+.saftey-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: start;
+    max-width: 1200px;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.saftey-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}*/
+
+.relevent-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.text {
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+.paragraph {
+    display: flex;
+    align-items: center;
+}
 
 
 

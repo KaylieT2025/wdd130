@@ -26,6 +26,7 @@ header {
     max-width: 1200px;
     background-color: var(--primary-color);
     padding: 10px 20px;
+    
 }
 
 .logo{
@@ -45,6 +46,7 @@ header {
     padding: 0px;
     margin: 0;
     gap: 20px;
+    
 }
 
 .nav_links li{
@@ -58,11 +60,12 @@ header {
     text-decoration: none;
     text-align: center;
     white-space: nowrap;
+    
 }
 
 .nav_links a:hover{
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
+    background-color: var(--accent-color1);
+    color: black;
 }
 
 /*.logo{

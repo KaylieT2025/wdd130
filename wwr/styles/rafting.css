@@ -343,10 +343,12 @@ iframe {
     font-size: 1rem;
     cursor: pointer; 
     transition: background-color 0.3s ease;
+    color: black;
 }
 
 .contact-button:hover{
     background-color: var(--secondary-color);
+    color: white;
 }
 
 footer{
@@ -443,6 +445,10 @@ footer a:hover{
 
 /*HOME PAGE*/
 
+.starting-section{
+    background-color: var(--secondary-color);
+    margin-top: 20px;
+}
 
 
 /*.starting-section {
@@ -487,6 +493,7 @@ footer a:hover{
     border-radius: 10px;
     margin: 0 auto;
     margin-bottom: 50px;
+    color: black;
 }
 
 .news{
@@ -559,10 +566,12 @@ footer a:hover{
     font-size: 1rem;
     cursor: pointer; 
     transition: background-color 0.3s ease;
+    color: black;
 }
 
 .trip-button:hover{
     background-color: var(--secondary-color);
+    color: white;
 }
 
 

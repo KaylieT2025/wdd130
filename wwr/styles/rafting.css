@@ -365,14 +365,15 @@ iframe {
 
 footer{
     display: flex;
-    height: 50px;
-    margin: auto;
+    height: auto;
+    margin: 20px auto;
     justify-content: space-between;
     background-color: var(--primary-color);
     color: white;
     padding: 10px 20px;
     align-items: center;
     max-width: 1200px;
+    flex-wrap: wrap;
     
 }
 
@@ -387,13 +388,14 @@ footer a:hover{
     
 }
 
-.footer .social-media{
-    display: flex;
+.footer img{
+    /*display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    width: 10px;
-    height: 10px;
+    margin-top: 20px;*/
+    width: 20px;
+    height: auto;
+    margin: 0 10px;
 }
 
 .trip-examples-container{
